@@ -12,3 +12,11 @@ void Input() {
     cin >> l;
 }
 
+float LuasPersegi() {
+    return p * l;
+}
+
+void Output() {
+    cout << "Hasilnya = " << LuasPersegi();
+}
+
