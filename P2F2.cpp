@@ -12,3 +12,11 @@ void Input() {
     cin >> l;
 }
 
+float LuasPersegi(float x, float y) {
+    return x * y;
+}
+
+int jumlah(int a, int b, int c) {
+    return a + b + c;
+}
+
