@@ -24,3 +24,10 @@ void Output() {
     cout << "Hasilnya = " << LuasPersegi(p, l) << endl;
 }
 
+// Program Utama
+int main() {
+    // start
+    Input();
+    Output();
+    cout << "Hasil penjumlahan = " << jumlah(5, 6, 9) << endl;
+}//selesai
